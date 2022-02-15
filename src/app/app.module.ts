@@ -7,16 +7,18 @@ import { AppComponent } from './app.component';
 import { profileComponent } from './profile/profile.component'
 import { ProfileService } from './profile-service.service';
 import { FormsModule } from '@angular/forms';
-import { NavBarComponent } from './nav-bar/nav.component'; 
-import { FormComponent } from './forms/forms.component'; 
-
+import { NavBarComponent } from './nav-bar/nav-bar.component';
+// import { FormComponentComponent } from './form-component/form-component.component';
+import { FormComponent } from './form/form.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     profileComponent,
-    FormComponent,
     NavBarComponent,
+    // FormComponentComponent,
+    FormComponent,
+    
     
     
   
@@ -26,6 +28,8 @@ import { FormComponent } from './forms/forms.component';
     AppRoutingModule,
     HttpClientModule,
     FormsModule
+    
+
  
   ],
   providers: [ProfileService],
