@@ -15,7 +15,6 @@ import { FormComponent } from './form/form.component';
     AppComponent,
     profileComponent,
     NavBarComponent,
-    // FormComponentComponent,
     FormComponent,
     
     
