@@ -1,7 +1,7 @@
 <div class="container">
     <app-form (searchProf)="search($event)"></app-form>
   <div class="row">
-    <div class="col-sm-6">
+    <div class="col-sm-5">
       <div *ngIf="profile" class="prof">
         <div class="card" style="width: 18rem;">
           <img src="{{profile.avatar_url}}" class="rounded-circle" alt="...">
@@ -11,14 +11,14 @@
           </div>
         </div>
         <div class="view">
-          <p> <a href="{{profile.html_url}}" class="btn btn-success">view profile on github</a></p>
+          <p> <a href="{{profile.html_url}}" class="btn btn-success">view profile  github</a></p>
         </div>
         <div class="follows">
           <p class="lower"><span>Followers:</span>{{profile.followers}} </p>
           <p> <span>Following:</span>{{profile.following}}</p>
         </div>
         <div class="repos">
-          <p><span> Repositories:</span>{{profile.public_repos}}</p>
+          <p><span> Repos:</span>{{profile.public_repos}}</p>
         </div>
       </div>
     </div>
