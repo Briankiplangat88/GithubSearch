@@ -10,7 +10,7 @@ export class Profile {
         public following:number,
         public public_repos:number,
         public created_at:any
-        // public html_url:string
+        
     ){
     }
 }
