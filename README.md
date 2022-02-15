@@ -1,4 +1,6 @@
 # GithubSearch
+## AUTHOR:BRIAN KIPLANGAT 
+The author is an upcoming software development who studies at moringa school and has a passion in tech 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.1.
 
