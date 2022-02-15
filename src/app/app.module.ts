@@ -17,9 +17,6 @@ import { FormComponent } from './form/form.component';
     NavBarComponent,
     FormComponent,
     
-    
-    
-  
   ],
   imports: [
     BrowserModule,
